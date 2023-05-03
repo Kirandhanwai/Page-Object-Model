@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.bridgelabz.extentreport.ExtentReportListener"></listener>
+    </listeners>
+
+    <test name="FREE CRM Application Test Automation Test Suite">
+        <classes>
+
+            <class name="com.bridgelabz.LoginPageTest"/>
+            <class name="com.bridgelabz.HomePageTest"/>
+            <class name="com.bridgelabz.ContactsPageTest"/>
+        </classes>
+    </test>
+</suite>
